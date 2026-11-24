@@ -1,0 +1,41 @@
+# Data and outputs — never commit restricted microdata
+data/
+raw/
+inputs/
+outputs/
+figures/
+*.dta
+*.sav
+*.sas7bdat
+*.zip
+*.csv
+!**/data_manifest.template.csv
+
+# DHS / survey identifiers
+*GE81*
+*KR81*
+*PR81*
+*IR81*
+*HR81*
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large rasters
+*.tif
+*.tiff
+*.nc
+*.hdf

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this skill or its templates, cite the origin paper and this repository."
+title: "GeoHealth: Explainable GeoAI for Environmental Health"
+abstract: "OpenCode skill and reproducible templates for linking satellite environmental exposures to geocoded survey health outcomes, with Bangladesh DHS defaults and an older-adult extension."
+authors:
+  - family-names: "Rana"
+    given-names: "Md Masud Parves"
+    affiliation: "GeoHealth"
+version: "0.1.0"
+date-released: "2026-11-24"
+license: MIT
+repository-code: "https://github.com/mmprana/GeoHealth"
+references:
+  - type: article
+    title: "Explainable geospatial AI reveals associations between ambient air quality and thermal predictors of child respiratory disease in Bangladesh"
+    authors:
+      - family-names: "Moniruzzaman"
+        given-names: "Md"
+    journal: "GeoHealth"
+    volume: 10
+    year: 2026
+    doi: "10.1029/2026GH002051"

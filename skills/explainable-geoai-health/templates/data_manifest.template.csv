@@ -1,0 +1,8 @@
+dataset,file,version,source_url,access_date,licence,geography,variables,notes
+BDHS 2022 child recode,BDKR81FL.DTA,DHS-8,https://dhsprogram.com,2026-11-24,DHS data-use agreement,National cluster,h31b h31c b19 v190 v005 v021,No redistribution
+BDHS 2022 household member recode,BDPR81FL.DTA,DHS-8,https://dhsprogram.com,2026-11-24,DHS data-use agreement,National cluster,hv001 hv002 hv009 hv226,Household covariates
+BDHS 2022 geographic,BDGE81FL.DTA,DHS-8,https://dhsprogram.com,2026-11-24,DHS data-use agreement,Cluster (displaced),DHSCLUST URBAN_RURA LATNUM LONGNUM,GPS restricted
+MAIAC AOD,MCD19A2.061,061,https://doi.org/10.5067/MODIS/MCD19A2.061,2026-11-24,NASA open,1 km daily,Optical_Depth_047,Annual mean
+MODIS LST,MOD11A2.061,061,https://doi.org/10.5067/MODIS/MOD11A2.061,2026-11-24,NASA open,1 km 8-day,LST_Day_1km,Scale 0.02
+MODIS NDVI,MOD13A2.061,061,https://doi.org/10.5067/MODIS/MOD13A2.061,2026-11-24,NASA open,1 km 16-day,NDVI,Scale 0.0001
+Upazila boundaries,BGD_adm3,,BBS,2026-11-24,Government data,Upazila,ADM3_EN ADM3_PCODE,463 polygons
