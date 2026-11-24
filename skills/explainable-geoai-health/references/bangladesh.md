@@ -136,7 +136,7 @@ Re-running the released model on the public CSV yields AUC ≈0.48–0.55 depend
 | Master CSV lacks urban/rural, maternal education, breastfeeding | Cannot adjust for them | Add from PR/IR in a new study |
 | Master CSV has `cluster_id` only | No coordinates in the public file | Request GE separately |
 
-## 8. Public materials
+## 9. Public materials
 
 - Paper: https://doi.org/10.1029/2026GH002051 (CC BY 4.0)
 - Data/code: https://doi.org/10.5281/zenodo.22342590
@@ -148,7 +148,7 @@ Re-running the released model on the public CSV yields AUC ≈0.48–0.55 depend
 
 The Zenodo master CSV is enough to reproduce the modelling half (RF, SHAP, GAM, calibration) but not the exposure extraction or maps, which need the GE file and boundaries.
 
-## 9. Replication checklist
+## 10. Replication checklist
 
 - [ ] 8,784 children, 95 cases, 1.08%.
 - [ ] 673 clusters in 344 upazilas.

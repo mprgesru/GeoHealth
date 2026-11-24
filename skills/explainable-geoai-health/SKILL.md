@@ -196,7 +196,7 @@ Stop before writing the manuscript if:
 | Pitfall | Fix |
 |---|---|
 | Random child-level CV reported as validation | Use GroupKFold by cluster and leave-one-upazila-out |
-| `AOD × 120 + 15` used without the 0.001 scale | PM2.5 in the tens of thousands | Apply `AOD × 0.001` before calibration |
+| `AOD × 120 + 15` used without the 0.001 scale | Apply `AOD × 0.001` first; otherwise PM2.5 is in the tens of thousands |
 | `AOD × 120 + 15` treated as a validated PM2.5 model | Compare with V5.GL.04/CHAP or a local calibration; report both |
 | Hard-coded SHAP values in figure code | Recompute TreeSHAP from the fitted model |
 | Wealth index treated as numeric in a GAM | Use a factor or quintile dummies |

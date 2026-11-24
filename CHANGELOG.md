@@ -12,6 +12,7 @@ Added:
 - `scripts/qa_cohort.py`, `validate_exposure.py`.
 - `examples/bangladesh_child_ari.md`, `bangladesh_older_adults.md`.
 - Repository README, skill registry, MIT licence, citation metadata.
+- Reproducibility notes: the MAIAC AOD 0.001 scale is applied in the GEE template; the public Zenodo master CSV is flagged as not matching the paper's Table 2.
 
 Known gaps to close in later releases:
 
