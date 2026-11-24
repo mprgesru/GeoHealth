@@ -133,6 +133,7 @@ Re-running the released model on the public CSV yields AUC ≈0.48–0.55 depend
 | GAM treats `wealth_index` as numeric | Misspecified covariate | Use a factor or dummies |
 | `h31d` all missing | Cannot use the 3-symptom ARI definition | Use `h31b` + `h31c` |
 | Boundary 463 vs 499 upazilas | Unmatched clusters and unmapped areas | Report both and mask |
+| Master CSV lacks urban/rural, maternal education, breastfeeding | Cannot adjust for them | Add from PR/IR in a new study |
 | Master CSV has `cluster_id` only | No coordinates in the public file | Request GE separately |
 
 ## 8. Public materials

@@ -16,7 +16,7 @@ So DHS Bangladesh 2022 can support a study of **measured hypertension, diabetes,
 | Men's individual interview | **No** | No `BDMR81` file for 2022 |
 | Measured BP 60+ | **Yes** | 1/6 of households; all adults 18+; ~8,156 women + 6,853 men eligible |
 | Fasting glucose 60+ | **Yes** | Same subsample; ~95% of women and ~91% of men measured |
-| Height/weight/BMI 60+ | **Yes** | Women 50+ and men 18+ in the subsample |
+| Height/weight/BMI 60+ | **Yes** | Women 50+ (ever-married) / 18+ (never-married) and men 18+ in the subsample |
 | Self-reported chronic disease 60+ | **No** | Chronic Disease module fielded only to women 15–49 |
 | COPD / IHD / stroke / lung cancer / dementia | **No** | Not collected at any age |
 | Disability 60+ | **No** | DHS Disability module exists but was not fielded in BDHS 2022 |
